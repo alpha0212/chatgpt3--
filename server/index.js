@@ -8,7 +8,7 @@ const port = 3001;
 
 const configuration = new Configuration({
   organization: 'org-3u08UNXAZCkNpKZutsxjz5GN',
-  apiKey: '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',
+  apiKey: import.meta.env.VITE_GPT,
 });
 const openai = new OpenAIApi(configuration);
 
