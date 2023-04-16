@@ -21,7 +21,7 @@ export const globalStyle = css`
   #__next {
     width: 100%;
     height: 100%;
-    color: ${colors.white};
+    color: ${colors.black};
     background-color: ${colors.background};
   }
 
